@@ -53,3 +53,34 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
 </p>
 <br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/f7396431-2ef9-4156-ab24-fc406d0fd6f8)
+</p>
+<p>
+Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/e05d4b97-5f06-4511-97f6-86554dfb93a7)
+</p>
+<p>
+Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/cbc4ed95-29f3-4e4f-b819-509a1496c0ab)
+</p>
+<p>
+Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/ea2c2e4b-d431-4d18-a154-3be3484b334a)
