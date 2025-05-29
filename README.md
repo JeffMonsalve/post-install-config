@@ -68,7 +68,7 @@ Before tickets can be handled, we need to set up agents (workers). To do this, g
 ![image](https://github.com/user-attachments/assets/e05d4b97-5f06-4511-97f6-86554dfb93a7)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+After setting up agents, we’ll create users—these are the customers who submit tickets when they need help. Each user is identified by their email address. 
 </p>
 <br />
 
@@ -77,10 +77,17 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/cbc4ed95-29f3-4e4f-b819-509a1496c0ab)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+SLA Plans set the time limit to resolve tickets. To create one, go to Admin Panel > Manage > SLA Plans. For example, SEV-A uses a 24/7 schedule with a 1-hour grace period.
 </p>
 <br />
 
 <p>
 
 ![image](https://github.com/user-attachments/assets/ea2c2e4b-d431-4d18-a154-3be3484b334a)
+</p>
+<p>
+To help users submit tickets more accurately, it’s a good idea to set up help topics. Navigate to Admin Panel > Manage > Help Topics, where you can create categories that guide users in selecting the appropriate topic when submitting a ticket.
+</p>
+<br />
+
+<p>
