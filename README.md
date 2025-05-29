@@ -31,7 +31,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 ![image](https://github.com/user-attachments/assets/9731e18c-c60f-4a96-b525-51fcf823a112)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Now that osTicket has been successfully set up, the next step is to configure roles within the help desk. This allows you to effectively manage user permissions and access.
 </p>
 <br />
 
@@ -41,7 +41,7 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/63e26b6f-4781-4902-8de0-b9c3165caaf4)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Next, go to the Agents tab and click on the “Departments” button. Here, you’ll create a new department to organize agents based on their roles within the help desk. Start by creating a department called “System Administrators” and assign the appropriate agents to it. (need new image)
 </p>
 <br />
 
@@ -50,7 +50,7 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/3816c5e6-dab3-41f0-b99b-32ca3a0f1ac3)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+To allow anyone to create tickets without needing an account, go to Admin Panel > Settings > Users and uncheck the option “Require registration and login to create tickets.”
 </p>
 <br />
 
@@ -59,7 +59,7 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/f7396431-2ef9-4156-ab24-fc406d0fd6f8)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Before tickets can be handled, we need to set up agents (workers). To do this, go to Admin Panel > Agents > Add New Agent, and fill in the required details such as name, email address, assigned role, and department. This creates each agent’s profile and assigns the appropriate permissions.
 </p>
 <br />
 
